@@ -19,7 +19,7 @@ function processaTexto(texto) {
         frequencias[i]=0;
 
         for (let j of palavras) {
-            if ( == j) {
+            if (i == j) {
                 frequencias[i]++;
             }
         }
